@@ -26,3 +26,8 @@ One set of configuration settings that works in all editors and that can be comm
 
 ### Package Manager
 
+#### Installing Node and NPM
+
+1. Go to [Node's website](https://nodejs.org) and download and install the latest version of Node.
+2. Install basic and essential NPM packages from [the gist](http://bit.ly/jsdevpackagejson). You should copy the file to a package.json file in the project directory.
+
