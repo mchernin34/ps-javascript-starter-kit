@@ -148,3 +148,16 @@ Advantages over Gulp and Grunt:
 - Better docs
 - Easy to learn
 - Simple
+
+##### Notes
+
+- Add your scripts under `"scripts": { ... }` in package.json.
+- `prestart` and `poststart`: Scripts that run before and after the main ones.
+- `start`: Main script, doesn't require the `run` keyword.
+- `npm-run-all --parallel script1 script2`: Execute multiple scripts at once.
+
+##### Basic Scripts
+
+- `node pathToServer/server.js` - Start basic node server.
+- `nsp check` - Check packages in package.json for malicious code.
+- `lt --port 3000` - Start a secure cloud server in port 3000.
