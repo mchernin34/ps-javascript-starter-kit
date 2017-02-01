@@ -227,7 +227,7 @@ After: `import express from 'express;'`
 #### Webpack
 
 - Bundles more than just JS
-- Import assets like CSS, images, etc like JS
+- Import CSS, images, etc like JS
 - Bundle splitting
 - Built in hot reloading web server, no need to fill the whole form while testing
 - Tree shaking in Webpack 2
