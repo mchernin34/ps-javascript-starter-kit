@@ -116,3 +116,35 @@ Quickly host static files to public URL.
 Setup:
 1. `$ npm i -g surge`
 2. `$ surge`
+
+### Automation
+
+#### Grunt
+
+- The "original"
+- Configuration over code
+- Writes intermediary files between steps
+- Large plugin ecosystem
+
+#### Gulp
+
+- In-memory streams - faster than Grunt
+- Code over configuration
+- Large plugin ecosystem
+
+#### NPM Scripts
+
+- Declared in package.json
+- Leverage your OS' command line
+- Directly use npm packages
+- Call separate Node scripts
+- Convention based pre/post hooks
+- Leverage world's largest package manager
+
+Advantages over Gulp and Grunt:
+
+- Use the tool directly, without any plugins
+- Simpler debugging
+- Better docs
+- Easy to learn
+- Simple
