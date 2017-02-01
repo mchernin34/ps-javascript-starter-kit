@@ -164,10 +164,6 @@ Advantages over Gulp and Grunt:
 
 ### Transpilers
 
-#### Babel
-
-Allows for modern, standards-based JavaScript, today.
-
 #### TypeScript
 
 - Superset of JS
@@ -183,3 +179,55 @@ Allows for modern, standards-based JavaScript, today.
 - Friendly errors
 - All errors are compile-time errors
 - Interops with JS
+
+#### Babel
+
+Allows for modern, standards-based JavaScript, today.
+
+##### Adding Babel
+
+Add `babel-` before the `node` command in the scripts section of package.json.
+
+##### Converting CommonJS to ES6 Modules
+
+Before: `var express = require('express');`
+
+After: `import express from 'express;'`
+
+### Bundlers
+
+#### Why Bundle?
+
+- CommonJS doesn't work in we browsers
+- Package project into file(s)
+- Improve Node performance
+
+#### Browserify
+
+- The first bundler to reach mass adoption
+- Bundle npm packages for the web
+- Large plugin ecosystem
+
+#### Rollup
+
+- Tree shaking
+- Faster loading production code
+- Newest
+- Great for library authors
+- No hot reloading and code splitting yet
+
+#### JSPM
+
+- Uses SystemJS, a universal module loader
+- Can load modules at runtime
+- Has its own package manager
+- Can install from npm or Git
+- Uses Rollup
+
+#### Webpack
+
+- Bundles more than just JS
+- Import assets like CSS, images, etc like JS
+- Bundle splitting
+- Built in hot reloading web server, no need to fill the whole form while testing
+- Tree shaking in Webpack 2
