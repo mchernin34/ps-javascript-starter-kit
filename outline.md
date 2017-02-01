@@ -231,3 +231,19 @@ After: `import express from 'express;'`
 - Bundle splitting
 - Built in hot reloading web server, no need to fill the whole form while testing
 - Tree shaking in Webpack 2
+
+### Linters
+
+With a linter you can enforce consistency while avoiding mistakes.
+
+#### Configuring ESLint
+
+- Configuration file format
+- Linting rules
+- Warnings or errors?
+- Plugins
+- Just use a preset?
+
+##### Tip:
+
+Add `/* eslint-disable [rule] */` or `/* eslint-disable-line [rule] */` to disable ESLint for that rule.
