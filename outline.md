@@ -247,3 +247,6 @@ With a linter you can enforce consistency while avoiding mistakes.
 ##### Tip:
 
 Add `/* eslint-disable [rule] */` or `/* eslint-disable-line [rule] */` to disable ESLint for that rule.
+
+### Testing and Continous Integration
+
