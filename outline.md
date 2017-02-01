@@ -161,3 +161,25 @@ Advantages over Gulp and Grunt:
 - `node pathToServer/server.js` - Start basic node server.
 - `nsp check` - Check packages in package.json for malicious code.
 - `lt --port 3000` - Start a secure cloud server in port 3000.
+
+### Transpilers
+
+#### Babel
+
+Allows for modern, standards-based JavaScript, today.
+
+#### TypeScript
+
+- Superset of JS
+- Enhanced autocompletion
+- Safer refactoring
+- Clearer intent
+
+#### Elm
+
+- Compiles down to JS
+- Clean syntax
+- Immutable data structures
+- Friendly errors
+- All errors are compile-time errors
+- Interops with JS
