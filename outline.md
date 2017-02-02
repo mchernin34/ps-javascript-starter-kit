@@ -250,3 +250,9 @@ Add `/* eslint-disable [rule] */` or `/* eslint-disable-line [rule] */` to disab
 
 ### Testing and Continous Integration
 
+1. Framework - Mocha
+2. Assertion Library - Chai
+3. Helper Libraries - JSDOM
+4. Where to run tests - Node
+5. Where to place test - Alongside code
+6. When to run tests - Upon save
