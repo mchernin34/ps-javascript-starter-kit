@@ -256,3 +256,21 @@ Add `/* eslint-disable [rule] */` or `/* eslint-disable-line [rule] */` to disab
 4. Where to run tests - Node
 5. Where to place test - Alongside code
 6. When to run tests - Upon save
+
+#### Travis CI
+
+- Cloud based
+- Built on linux
+- Free for open source projects
+
+#### Appveyor
+
+- Cloud based
+- Built on Windows
+- Free for open source projects
+
+#### Jenkins
+
+- Free hosted edition
+- Can be hosted on every platform
+
