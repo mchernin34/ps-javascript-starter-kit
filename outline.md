@@ -279,10 +279,48 @@ Add `/* eslint-disable [rule] */` or `/* eslint-disable-line [rule] */` to disab
 #### Planning
 
 1. Declare our schema
- - JSON Schema Faker
+  - JSON Schema Faker
 2. Generate random data
- - faker.js
- - chance.js
- - randexp.js
+  - faker.js
+  - chance.js
+  - randexp.js
 3. Serve data via API
- - JSON Server
+  - JSON Server
+
+### Error Login
+
+#### What to look for
+
+- Error metadata
+  - Browser
+  - Stack trace
+  - Previous actions
+  - Custom API for enhanced tracking
+- Notifications & integrations
+- Analytics and filtering
+- Pricing
+
+### Seperating UI from API
+
+#### Why should we seperate?
+
+- Simple, low-risk, UI only deploys
+- Seperates concerns
+  - Seperate teams
+  - Less to understand
+  - Scale back-end seperately
+- Cheap UI hosting - static files
+- Serve UI via a CDN
+- Use the API tech you like
+
+#### Setting up cloud API hosting on Heroku
+
+1. Go to [Heroku](https://heroku.com) and sign up for a free account.
+2. Go to the Node docs and download and install the Heroku CLI.
+3. Navigate to your API repository.
+4. In terminal:
+  - `$ heroku` - Check that Heroku CLI is installed.
+  - `$ heroku create` - Create an Heroku app and get a URL.
+  - `$ heroku git:remote -a [Heroku app name]` - Attach a remote to your API repository.
+  - `$ git push heroku master` - Push the repository to Heroku.
+5. Go to *https://[Heroku app name].herokuapp.com* and check that the API is in place.
