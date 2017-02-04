@@ -7,11 +7,11 @@ export default {
   devtool: 'source-map',
   noInfo: false,
   entry: [
-    path.resolve(__dirname, 'dist')
+    path.resolve(__dirname, 'src/index')
   ],
   target: 'web',
   output: {
-    path: path.resolve(__dirname, 'src'),
+    path: path.resolve(__dirname, 'dist'),
     publicPath: '/',
     filename: 'bundle.js'
   },
@@ -20,7 +20,7 @@ export default {
     new webpack.optimize.DedupePlugin(),
 
     // Minify JS
-    new webpack.optimize.UglifyPlugin()
+    new webpack.optimize.UglifyJsPlugin()
   ],
   module: {
     loaders: [
