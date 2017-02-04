@@ -274,3 +274,15 @@ Add `/* eslint-disable [rule] */` or `/* eslint-disable-line [rule] */` to disab
 - Free hosted edition
 - Can be hosted on every platform
 
+### Mocking HTTP Calls
+
+#### Planning
+
+1. Declare our schema
+ - JSON Schema Faker
+2. Generate random data
+ - faker.js
+ - chance.js
+ - randexp.js
+3. Serve data via API
+ - JSON Server
